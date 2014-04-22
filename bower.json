@@ -1,0 +1,18 @@
+{
+  "name": "sandboxie",
+  "version": "0.0.1",
+  "homepage": "https://github.com/matjaz/sandboxie.js",
+  "main": "lib/index.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
