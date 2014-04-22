@@ -1,0 +1,22 @@
+{
+  "name": "sandboxie",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/jasmine-node/bin/jasmine-node test/ && ./node_modules/karma/bin/karma start test/karma.conf.js && ./node_modules/istanbul/lib/cli.js cover jasmine-node -- test/ && ./node_modules/istanbul/lib/cli.js report html"
+  },
+  "author": "Matjaz Lipus",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.2.7",
+    "jasmine-node": "^1.14.3",
+    "karma": "^0.12.9",
+    "karma-coverage": "^0.2.1",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
